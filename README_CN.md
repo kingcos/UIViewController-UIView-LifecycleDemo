@@ -1,6 +1,6 @@
 # UIViewController-UIView-LifecycleDemo
 
-研究 UIViewController & UIView 生命周期。
+探究 UIViewController & UIView 生命周期。
 
 [English Version README](README.md)
 
@@ -15,10 +15,13 @@
 
 如果项目中有任何 Bug 或改进，您都可以直接发起 Issue，定虚心学习。谢谢！
 
+![Structure](images/uiviewcontroller-lifecycle.png)
+
 ## 文章
 
-- [探究 UIView 生命周期]()
-- [探究 UIViewController 生命周期](http://www.jianshu.com/p/9d3d95e1ef5a)
+- [探究 UIViewController 生命周期](UIViewController_Lifecycle.md)
+- [探究 UIViewController 生命周期（简书）](http://www.jianshu.com/p/9d3d95e1ef5a)
+- [初探 iOS 中自定义 UIView 的初始化过程（简书）](http://www.jianshu.com/p/bfea8efee664)
 
 ## 许可
 

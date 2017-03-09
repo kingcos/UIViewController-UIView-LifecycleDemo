@@ -15,10 +15,12 @@ Hi! This is a project about the lifecycle demos of UIViewController & UIView. Yo
 
 If you find any bugs or improvements, please issue me!
 
+![Structure](images/uiviewcontroller-lifecycle.png)
+
 ## Article
 
-- [Find out the lifecycle of UIView(zh-CN)]()
-- [Find out the lifecycle of UIViewController(zh-CN)](http://www.jianshu.com/p/9d3d95e1ef5a)
+- [Find out the lifecycle of UIViewController(zh-CN)](UIViewController_Lifecycle.md)
+- [Find out the initialization process of custom UIView(zh-CN)](http://www.jianshu.com/p/bfea8efee664)
 
 ## LICENSE
 

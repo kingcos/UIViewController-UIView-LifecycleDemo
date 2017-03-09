@@ -73,6 +73,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="9Cd-6k-0aC" kind="show" id="24U-bK-Kr7"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="7gn-es-TkE" style="IBUITableViewCellStyleDefault" id="vB3-4s-YLj">
                                         <rect key="frame" x="0.0" y="132" width="375" height="44"/>
@@ -90,6 +93,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="bMV-wU-oEX" kind="show" id="4BD-t5-1JK"/>
+                                        </connections>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
@@ -104,6 +110,56 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="p1L-hH-rBU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1296.8" y="305.39730134932535"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="1Bq-jG-5vD">
+            <objects>
+                <viewController id="9Cd-6k-0aC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="JfV-ap-xdK"/>
+                        <viewControllerLayoutGuide type="bottom" id="4YP-tS-r4Y"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Vud-oF-bEL">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZCc-Xk-WgO" customClass="StoryboardView" customModule="UIViewController_UIView_LifecycleDemo" customModuleProvider="target">
+                                <rect key="frame" x="162" y="308" width="50" height="50"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="PKy-LT-ELN"/>
+                                    <constraint firstAttribute="width" constant="240" id="tJ8-DK-vjj"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ZCc-Xk-WgO" firstAttribute="centerX" secondItem="Vud-oF-bEL" secondAttribute="centerX" id="PNO-mJ-MWM"/>
+                            <constraint firstItem="ZCc-Xk-WgO" firstAttribute="centerY" secondItem="Vud-oF-bEL" secondAttribute="centerY" id="kd2-VA-UHd"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bdV-ec-37Q" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2200.8000000000002" y="303.59820089955025"/>
+        </scene>
+        <!--View Test View Controller-->
+        <scene sceneID="i71-oy-w4t">
+            <objects>
+                <viewController id="bMV-wU-oEX" customClass="ViewTestViewController" customModule="UIViewController_UIView_LifecycleDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="TS8-u8-6AT"/>
+                        <viewControllerLayoutGuide type="bottom" id="6yL-b5-AuB"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="WsM-Tu-wA5">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SF1-Qf-fQv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2201" y="1017"/>
         </scene>
         <!--Storyboard View Controller-->
         <scene sceneID="aPy-iA-yHx">
@@ -156,7 +212,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JXf-lr-nhD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1296.8" y="-385.45727136431788"/>
+            <point key="canvasLocation" x="2200.8000000000002" y="-364.7676161919041"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="wGj-fu-0ev">

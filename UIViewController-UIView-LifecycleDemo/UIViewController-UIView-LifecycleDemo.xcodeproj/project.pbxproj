@@ -16,6 +16,10 @@
 		843DADE31E6F0B7C0089127C /* CodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843DADE21E6F0B7C0089127C /* CodeViewController.swift */; };
 		843DADE51E6F94FA0089127C /* StoryboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843DADE41E6F94FA0089127C /* StoryboardViewController.swift */; };
 		843DADE71E7045550089127C /* LoopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843DADE61E7045550089127C /* LoopViewController.swift */; };
+		843DADEB1E70E5090089127C /* CodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843DADEA1E70E5090089127C /* CodeView.swift */; };
+		843DADED1E70E51E0089127C /* StoryboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843DADEC1E70E51E0089127C /* StoryboardView.swift */; };
+		843DADEF1E70E55A0089127C /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843DADEE1E70E55A0089127C /* BaseView.swift */; };
+		843DADF11E70EA410089127C /* ViewTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843DADF01E70EA410089127C /* ViewTestViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +34,10 @@
 		843DADE21E6F0B7C0089127C /* CodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodeViewController.swift; sourceTree = "<group>"; };
 		843DADE41E6F94FA0089127C /* StoryboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardViewController.swift; sourceTree = "<group>"; };
 		843DADE61E7045550089127C /* LoopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoopViewController.swift; sourceTree = "<group>"; };
+		843DADEA1E70E5090089127C /* CodeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodeView.swift; sourceTree = "<group>"; };
+		843DADEC1E70E51E0089127C /* StoryboardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardView.swift; sourceTree = "<group>"; };
+		843DADEE1E70E55A0089127C /* BaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		843DADF01E70EA410089127C /* ViewTestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewTestViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,11 +70,8 @@
 		843DADC81E6EF1C50089127C /* UIViewController-UIView-LifecycleDemo */ = {
 			isa = PBXGroup;
 			children = (
-				843DADDE1E6EF4B90089127C /* BaseViewController.swift */,
-				843DADE21E6F0B7C0089127C /* CodeViewController.swift */,
-				843DADE41E6F94FA0089127C /* StoryboardViewController.swift */,
-				843DADE61E7045550089127C /* LoopViewController.swift */,
-				843DADDC1E6EF3A40089127C /* TableViewController.swift */,
+				843DADE91E70E4DF0089127C /* View */,
+				843DADE81E70E4CC0089127C /* Controller */,
 				843DADCD1E6EF1C50089127C /* Main.storyboard */,
 				843DADDB1E6EF3120089127C /* Supporting Files */,
 			);
@@ -82,6 +87,29 @@
 				843DADD51E6EF1C50089127C /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		843DADE81E70E4CC0089127C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				843DADDE1E6EF4B90089127C /* BaseViewController.swift */,
+				843DADE21E6F0B7C0089127C /* CodeViewController.swift */,
+				843DADE41E6F94FA0089127C /* StoryboardViewController.swift */,
+				843DADE61E7045550089127C /* LoopViewController.swift */,
+				843DADDC1E6EF3A40089127C /* TableViewController.swift */,
+				843DADF01E70EA410089127C /* ViewTestViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		843DADE91E70E4DF0089127C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				843DADEE1E70E55A0089127C /* BaseView.swift */,
+				843DADEA1E70E5090089127C /* CodeView.swift */,
+				843DADEC1E70E51E0089127C /* StoryboardView.swift */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,9 +188,13 @@
 				843DADE31E6F0B7C0089127C /* CodeViewController.swift in Sources */,
 				843DADE51E6F94FA0089127C /* StoryboardViewController.swift in Sources */,
 				843DADE71E7045550089127C /* LoopViewController.swift in Sources */,
+				843DADF11E70EA410089127C /* ViewTestViewController.swift in Sources */,
+				843DADED1E70E51E0089127C /* StoryboardView.swift in Sources */,
 				843DADCA1E6EF1C50089127C /* AppDelegate.swift in Sources */,
 				843DADDF1E6EF4B90089127C /* BaseViewController.swift in Sources */,
+				843DADEF1E70E55A0089127C /* BaseView.swift in Sources */,
 				843DADDD1E6EF3A40089127C /* TableViewController.swift in Sources */,
+				843DADEB1E70E5090089127C /* CodeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
