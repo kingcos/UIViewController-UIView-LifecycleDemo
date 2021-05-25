@@ -20,7 +20,7 @@
 ## 文章
 
 - [探究 UIViewController 生命周期](https://kingcos.me/posts/2017/uiviewcontroller_life_cycle/)
-- [初探 iOS 中自定义 UIView 的初始化过程](http://www.jianshu.com/p/bfea8efee664)
+- [初探 iOS 中自定义 UIView 的初始化过程](https://kingcos.me/posts/2016/uiview_life_cycle/)
 
 ## 许可
 
