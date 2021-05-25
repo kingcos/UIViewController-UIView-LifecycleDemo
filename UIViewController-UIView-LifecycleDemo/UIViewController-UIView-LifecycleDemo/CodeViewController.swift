@@ -26,7 +26,7 @@ class CodeViewController: BaseViewController {
         view.addSubview(button)
     }
     
-    func showNewController() {
+    @objc func showNewController() {
         otherController = UIViewController()
         let btn = UIButton(type: .system)
         otherController.view.backgroundColor = UIColor.white
@@ -38,7 +38,7 @@ class CodeViewController: BaseViewController {
         present(otherController, animated: true)
     }
 
-    func back() {
+    @objc func back() {
         otherController.dismiss(animated: true)
     }
     
