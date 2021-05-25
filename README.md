@@ -19,8 +19,8 @@ If you find any bugs or improvements, please issue me!
 
 ## Article
 
-- [Find out the lifecycle of UIViewController(zh-CN)](UIViewController_Lifecycle.md)
-- [Find out the initialization process of custom UIView(zh-CN)](https://kingcos.me/posts/2017/uiviewcontroller_life_cycle/)
+- [Find out the lifecycle of UIViewController(zh-CN)](https://kingcos.me/posts/2017/uiviewcontroller_life_cycle/)
+- [Find out the initialization process of custom UIView(zh-CN)](http://www.jianshu.com/p/bfea8efee664)
 
 ## LICENSE
 
