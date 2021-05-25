@@ -17,7 +17,7 @@ class BaseViewController: UIViewController {
     
     override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
         super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
-        print("\(#function) - NibName: \(nibNameOrNil), Bundle: \(nibBundleOrNil)")
+        print("\(#function) - NibName: \(String(describing: nibNameOrNil)), Bundle: \(String(describing: nibBundleOrNil))")
     }
     
     deinit {
@@ -46,12 +46,12 @@ class BaseViewController: UIViewController {
     
     override func viewWillLayoutSubviews() {
         super.viewWillLayoutSubviews()
-        print("\(#function) - \(view?.subviews[0].frame)")
+        print("\(#function) - \(String(describing: view?.subviews[0].frame))")
     }
     
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
-        print("\(#function) - \(view?.subviews[0].frame)")
+        print("\(#function) - \(String(describing: view?.subviews[0].frame))")
     }
     
     override func viewDidAppear(_ animated: Bool) {
