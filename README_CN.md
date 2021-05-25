@@ -6,8 +6,8 @@
 
 ## 简介
 
-- Xcode 8.2.1
-- Swift 3.0.1
+- Xcode 12.5
+- Swift 5.x
 
 ## 前言
 
